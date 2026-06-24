@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<head>
+    <body>
+        <button onclick="gen()">generate</button>
+        <p id ="num"></p>
+        <script>
+            function gen(){
+                let n=Math.floor(Math.random()*100);
+                document.getElementById("num").innerHTML=n;
+            }
+        </script>
+    </body>
+</head>
