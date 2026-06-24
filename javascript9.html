@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<head>
+    <body>
+        <input type="text" id="task">
+        <button onclick="add()">add</button>
+        <ul id="list"></ul>
+        <script>
+            function add(){
+                let task=document.getElementById("task").value;
+                let li=document.createElement("li");
+                li.innerHTML=task;
+                document.getElementById("list").appendChild(li);
+            }
+        </script>        
+    </body>
+</head>
