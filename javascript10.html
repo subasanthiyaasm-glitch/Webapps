@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+    <body>
+        <button onclick="openpop()">open popup</button>
+        <div id="popup"style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%); background-color:white; padding:20px; border:1px solid black;">
+            <h2>Popup Content</h2>
+            <p>hello popup!</p>
+            <button onclick="closepop()">Close</button>
+            </div>
+        <script>
+            function openpop(){
+                document.getElementById("popup").style.display="block";
+            }
+            function closepop(){
+                document.getElementById("popup").style.display="none";
+            }
+        </script>
+    </body>
+</head>
+<html>
