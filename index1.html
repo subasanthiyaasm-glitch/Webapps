@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-rX3L8fX2GQGYMOZ0oMkF2G3sJV4ylqy5q/kUQkoHCbH1U4v4VQbQcHJldpqfCYUN1R6C7ZxG0P8RmlSD+Ot9PQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f4f4f4;
+        color: #222;
+      }
+      header,
+      section {
+        padding: 20px 24px;
+      }
+      h1,
+      h2,
+      h3,
+      h4 {
+        margin: 0 0 12px;
+      }
+      .site-title {
+        margin: 0;
+        padding: 20px 24px;
+        background: #ffffff;
+        border-bottom: 1px solid #ddd;
+      }
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333333;
+      }
+      nav ul li {
+        float: left;
+      }
+      nav ul li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 18px;
+        text-decoration: none;
+      }
+      nav ul li a:hover {
+        background-color: #111111;
+      }
+      nav ul li a i {
+        margin-right: 6px;
+      }
+      .button {
+        margin: 18px 0;
+      }
+      .style {
+        display: inline-block;
+        padding: 10px 16px;
+        margin-right: 10px;
+        border: 1px solid #ccc;
+        background: #e5e5e5;
+        color: #333;
+        cursor: pointer;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background 0.2s ease;
+      }
+      .style:hover {
+        background: #d4d4d4;
+      }
+      .info-block {
+        background: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+        padding: 24px;
+        margin-bottom: 20px;
+      }
+      .skill-list,
+      .project-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .skill-list li,
+      .project-list li {
+        margin-bottom: 10px;
+      }
+      .skill-icon,
+      .contact-icon,
+      .project-icon {
+        margin-right: 8px;
+        color: #333;
+      }
+      .contact-info p {
+        margin: 8px 0;
+      }
+      .hero-image {
+        display: block;
+        margin: 18px auto;
+        width: 30%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site-title">
+      <h1>Santhiya</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#home"><i class="fas fa-home"></i>Home</a></li>
+        <li><a href="#about"><i class="fas fa-user"></i>About</a></li>
+        <li><a href="#skills"><i class="fas fa-code"></i>Skills</a></li>
+        <li><a href="#contact"><i class="fas fa-envelope"></i>Contact</a></li>
+        <li><a href="#project"><i class="fas fa-briefcase"></i>Projects</a></li>
+      </ul>
+    </nav>
+    <img class="hero-image" src="/Users/arunkumar/Downloads/girl-smile-avatar-cute-happy-woman-face-flat-icon-blue-circle-isolated-white-girl-smile-avatar-cute-happy-woman-209423521.webp" alt="Background Image">
+    <section align="center" id="home" class="info-block">
+      <h1>Hello i am Santhiya</h1>
+      <h3><i class="fas fa-user-graduate"></i> MBA Graduate | flutter developer</h3>
+      <div align="center" class="button">
+        <a class="style" href="#project"><i class="fas fa-briefcase"></i> project</a>
+        <a class="style" href="#contact"><i class="fas fa-envelope"></i> contact</a>
+      </div>
+
+      <p align ="center"><i class="fas fa-lightbulb"></i> Passionate about mobile app and machine learning</p>
+      <p align="center"><i class="fas fa-rocket"></i> I am a flutter developer with experience in machine learning. I have a strong background in mobile app development and a passion for creating innovative solutions.</p>
+    </section>
+
+    <section align="center" id="about" class="info-block">
+      <h2><i class="fas fa-user"></i> About me</h2>
+      <p>MBA graduate with experience in flutter development and machine learning</p>
+    </section>
+
+    <section id="skills" class="info-block">
+      <h2 align="center"><i class="fas fa-code"></i> Skills</h2>
+      <ul class="skill-list" align="center">
+        <li align="center"><i class="fab fa-html5 skill-icon"></i>HTML</li>
+        <li align="center"><i class="fab fa-css3-alt skill-icon"></i>CSS</li>
+        <li align="center"><i class="fab fa-google-play skill-icon"></i>Flutter</li>
+      </ul> 
+    </section>
+    <section id="project" class="info-block">
+      <h2 align="center"><i class="fas fa-briefcase"></i> Projects</h2>
+      <div class="project-list">
+        <h4 align="center"><i class="fas fa-car project-icon"></i> traffic accident prediction</h4>
+        <p align="center">machine learning project for predicting traffic accidents</p>
+        <h4 align="center"><i class="fas fa-gamepad project-icon"></i> edutainment flutter app</h4>
+        <p align="center">Educational mobile app for children</p>
+        <h4 align="center"><i class="fas fa-shopping-cart project-icon"></i> MS Mutton stall app</h4>
+        <p align="center">e commerce application for meat ordering</p>
+      </div>
+        <div align="center" class="button">
+      <a class="style" href="#contact"><i class="fas fa-arrow-right"></i> view more</a>
+      </div>
+    </section>
+    <section id="contact" class="info-block contact-info" align="center">
+      <h2 align="center"><i class="fas fa-envelope"></i> contact me</h2>
+      <p align="center"><i class="fas fa-envelope contact-icon"></i> email: santhiya@example.com</p>
+      <p align="center"><i class="fas fa-phone contact-icon"></i> phone: 123-456-7890</p>
+      <p align="center"><i class="fas fa-calendar contact-icon"></i> 2026 santhiya portfolio</p>
+    </section>
+</body>
+</html>
